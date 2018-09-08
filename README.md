@@ -1,12 +1,13 @@
-# kneditor
-K'nex CAD tool in Unity
+# k'neditor
+K'nex CAD tool in Unity.
 
-Written and tested on Windows 10, no cross-platform testing done yet.
+Written on Windows 10, no cross-platform testing yet.
 
 # Philosophy
-Heavily keyboard-driven, numeric keypad required.
+Keyboard-driven, numeric keypad required.  Wanted a way to document some of our bigger projects like the 6-foot tall Ferris Octagon.
 
-# Construction Controls
+# Controls
+## Construction Controls
 See the green sphere? That's the cursor. Move it, creating K'nex as you go, with the numeric keypad, including the diagonals.
 Plus/Minus build in/out respectively.
 
@@ -19,13 +20,19 @@ Hold DELETE and press an arrow to delete the connector in that direction.
 
 Holding SHIFT while building keeps the cursor where it is.
 
-# Camera controls
+Tap M to cycle through symmetry modes, which construct extra parts mirrored/rotated around the symmetry axis 
+(always the starting connector for now).
+
+## Camera controls
 Drag with the left mouse button to pan, drag with the right mouse button to rotate.  Mouse wheel or CONTROL-Plus/Minus to zoom.
 
 Holding CTRL modifies the arrow keys to control the camera instead, rotating it around the selected piece to edit in a different plane.
 
+## File Operations
+Hit S to save, L to load.  These should probably be CTRL-keys instead.
+
 # Bugs
- More bugs than features right now.
+More bugs than features right now.
 
 # Todo
  - clone and shift current layer
